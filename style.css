@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Tiro Bangla', serif;
+}
+.game{
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  /* background-image:url("https://static.vecteezy.com/system/resources/previews/004/532/221/non_2x/tic-tac-toe-seamless-background-on-dark-blue-illustration-vector.jpg"); */
+  background-image:url("https://image.shutterstock.com/image-vector/seamless-pattern-game-tic-tac-600w-709731865.jpg");
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px  red;
+}
+.game div {
+  display: flex;
+  width: 450px;
+  height: 70px;
+  margin: 7px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.elements{
+  margin: 2.5px;
+  color: white;
+  background-color: rgb(69, 68, 68);
+  font-size: 50px;
+  background: inherit;
+  /* background-image:url("https://image.shutterstock.com/image-vector/seamless-pattern-game-tic-tac-600w-709731865.jpg"); */
+
+  /* background-image: linear-gradient(to right, #50509c, #27324d); */
+  border: 3.5px solid rgb(245, 248, 245);
+  user-select: none;
+
+}
+.instructor {
+  display: flex;
+  color: rgb(192, 178, 178);
+  justify-content: center;
+  background-image: linear-gradient(to left, #212125, #464749);
+  
+  border: 5px solid linear-gradient(to right ,red,green);
+  padding: 30px;
+}
+.heading {
+  display: flex;
+  width: 100%;
+  color:rgb(21, 15, 14);
+  background-image: linear-gradient(to right,rgb(120, 41, 41),rgb(23, 65, 99));
+ padding: 13px;
+  justify-content: space-around;
+}
+
+#winner {
+  visibility: hidden;
+  display: flex;
+  height: 250px;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  background-color:rgba(35, 35, 45, 0.9);
+  position: relative;
+  top: -197px;
+  margin: -253px;
+}
+#btn {
+  display: inline;
+  border: 3.5px solid rgb(20, 32, 32);
+  margin-top: 30px;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 50px;
+  color: rgb(203, 202, 202);
+  background-color: rgb(42, 41, 52);
+}
+#btn:hover{
+  color: black;
+  background-color: rgb(255, 255, 255);
+  border: 5px solid rgb(39, 49, 71);
+}
+
+
